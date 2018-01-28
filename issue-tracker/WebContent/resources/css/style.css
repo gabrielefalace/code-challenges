@@ -1,0 +1,128 @@
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 30px;
+}
+
+.button {
+	height: auto;
+	width: 134px;
+	cursor: pointer;
+	padding: 12px;
+	font-family: sans-serif;
+	font-weight: 600;
+	background-color: #CCCCCC;
+	border-style: none;
+}
+
+#bug_btn:hover {
+	background-color: #99CCFF;
+	color: white;
+}
+
+#story_btn:hover {
+	background-color: #00CC66;
+	color: white;
+}
+
+.submitButton {
+	height: auto;
+	width: 134px;
+	cursor: pointer;
+	padding: 12px;
+	font-weight: 600;
+	background-color: #CCCCCC;
+	border-style: none;
+}
+
+.submitButton:hover {
+	font-weight: 800;
+	color: #787B7D;
+	background-color: #E5E4E2;
+}
+
+.issueBox{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 16px;
+	background-color: #99CCFF;
+	color: black;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+table {
+	width: 30%;
+}
+
+input, select, textarea {
+	margin-top: 10px;
+	margin-bottom: 16px;
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #2E9AFE;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#switch {
+	margin-top: 70px;
+	margin-left: 50px;
+}
+
+#createBugBox {
+	width: 25%;
+	margin-top: 70px;
+	margin-left: 50px;
+	padding-top: 30px;
+	padding-left: 30px;
+	background-color: #99CCFF;
+}
+
+#createStoryBox{
+	width: 25%;
+	margin-top: 70px;
+	margin-left: 50px;
+	padding-top: 30px;
+	padding-left: 30px;
+	background-color: #00CC66;
+}
+
+.nonVisible {
+	display: none;
+}
+
+.timestamp {
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.descriptionText {
+	font-style: italic;
+}
+
+.editLink {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.error{
+	border-color: red;
+	border-width: 2px;
+}
+
+.borderedBox {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+}
+
+.borderedBox > table {
+	width: 100%;
+}
